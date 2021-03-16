@@ -1,0 +1,131 @@
+header {
+	width: 100%;
+	height:100px;
+	background-color: gray;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/*justify-content: space-between;*/
+	
+}
+/*nav {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: auto;
+	background-color: lightblue;
+}*/
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+	color: fuchsia;
+}
+#logo {
+	width: 30%;
+	height: 80px;
+	background-image: url(imagen5.jpg);
+	background-size: 100% 100%; /*ESTO ES PARA QUE SE AJUSTE A LA CAJA O AL ESPACIO QUE TENGO*/
+	/*border: 1px solid black;*/
+	/*margin-left: 10px;*/
+}
+#links {
+	width: 70%;
+	height: 80px;
+	display: flex; /*CON ESTO LO CONVIERTO EN PADRE*/
+	flex-direction: row;
+	background-color: lightblue;
+	justify-content: flex-end; /*LO AJUSTA HACIA LA DERECHA*/
+	align-items: center;
+	/*border: 1px solid black;*/
+	padding-left: 10px;
+}
+#cajaVacia {
+	width: 30%;
+	height: 80px;
+	background-color: lightblue;
+	border: 1px solid black;
+}
+main {
+	width: 100%;
+	height: 350px;
+	background-color: lightblue;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	/*text-align: center;*/
+	/*background-image: url(imagen1.jpg);*/
+	/*background-repeat: no-repeat
+	background-size: cover;
+	margin-top: 10px;*/
+}
+#imagen {
+	width: 100%; /*DE ESTA MANERA ME TOMA TODO EL TAMAÑO DE LA CAJA*/
+	height: 100%;
+
+}
+footer {
+	width: 100%; 
+	height: 200px;
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row; /*ACA HAY OTRO PADRE*/
+	justify-content: space-between; /*ESTA ETIQUETA VA SOLO EN EL PADRE*/ 
+	align-items: center; /*ESTA ETIQUETA VA SOLO EN EL PADRE */
+}
+/*#cajas {
+	width: 100%;
+	height: 150px;
+	background-color: lightblue;
+	margin-top: 10px;
+	display: flex;
+	justify-content: row;
+	justify-content: space-between;
+	padding-bottom: 10px;*/
+	/*margin: auto;*/
+	/*font-size: 2em;
+}
+.uno {
+	width: 20%;
+	height: 130px;
+	background-color: gray;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	align-items: center;
+}
+.dos {
+	width: 20%;
+	height: 130px;
+	background-color: gray;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+.tres {
+	width: 20%;
+	height: 130px;
+	background-color: gray;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+.cuatro {
+	width: 20;
+	height: 130px;
+	background-color: gray;
+	padding-left: 10px;
+	padding-top: 10px;
+}*/
+aside {
+	width: 25%;
+	height: 180px;
+	background-color: gray;
+	display: flex; /*LO CONVERTI EN PADRE*/
+	justify-content: center; /*ESTA ETIQUETA ME LO CENTRA EN EL MEDIO, PERO SIN BAJAR DE RENGLON*/
+	align-items: center; /*ESTA ETIQUETA ME LO CENTRA EN EL MEDIO DE LA CAJA*/
+	font-size: 2em;
+	
+}
